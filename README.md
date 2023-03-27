@@ -11,7 +11,7 @@ Slides 👉 https://slides.com/evandroamparo/testes-dot-net-xunit
 - Testes unitários são apenas um tipo. Não ignore os testes de mais alto nível.
 - TDD é uma técnica para escrever código a partir dos testes.
 - xUnit é uma das bibliotecas mais utilizadas para escrever testes em C#/.NET.
-- Todos os contceitos abordados vão muito além da tecnologia, como linguagens, bibliotecas em frameworks.
+- Todos os conceitos abordados vão muito além da tecnologia, como linguagens, bibliotecas em frameworks.
 
 ## Extensões utilizadas
 
