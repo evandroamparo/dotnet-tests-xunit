@@ -20,3 +20,6 @@ https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
 
 vscode-solution-explorer
 https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer
+
+.NET Core Test Explorer
+https://marketplace.visualstudio.com/items?itemName=formulahendry.dotnet-test-explorer
