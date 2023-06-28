@@ -6,6 +6,9 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     name: ChatGPT explain code
+    permissions:
+      contents: read
+      pull-requests: write
     steps:
       - name: ChatGTP explain code
         uses: cirolini/chatgpt-github-actions@v1.3
