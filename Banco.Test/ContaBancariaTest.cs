@@ -39,7 +39,13 @@ public class ContaBancariaTest
     [Fact]
     public void Sacar_Valor_Negativo_Deve_Lancar_Excecao()
     {
-        // TODO: write the missing tests
+        // arrange
+        var saldoInicial = 150;
+        var valorSaque = -100;
+        var conta = new ContaBancaria(saldoInicial);
+
+        // act & assert
+        Assert.Throws<ArgumentOutOfRangeException>(() => conta.Sacar(valorSaque));
     }
 
     [Fact]
