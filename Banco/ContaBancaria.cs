@@ -3,7 +3,6 @@ namespace Banco;
 public class ContaBancaria
 {
     public double Saldo { get;  private set; }
-    public string Titular { get; set; }
 
     public ContaBancaria(double saldoInicial)
     {
@@ -12,15 +11,6 @@ public class ContaBancaria
 
     public void Sacar(double valor)
     {
-        if (valor < 0)
-        {
-            throw new ArgumentOutOfRangeException(nameof(valor), "O valor do saque não pode ser negativo.");
-        }
-
-        if (valor > Saldo)
-        {
-            throw new ArgumentOutOfRangeException(nameof(valor), "O valor do saque não pode ser maior que o saldo.");
-        }
         Saldo -= valor;
     }
 }
