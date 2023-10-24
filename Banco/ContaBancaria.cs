@@ -3,8 +3,7 @@ namespace Banco;
 public class ContaBancaria
 {
     public double Saldo { get;  private set; }
-    public string Titular { get; set; }
-
+    
     public ContaBancaria(double saldoInicial)
     {
         Saldo = saldoInicial;
